@@ -3,7 +3,7 @@ var Messages;
 (function (Messages) {
     window.addEventListener("load", handleLoad);
     let url = "http://localhost:5500/";
-    // let url = "https://einzigartig.herokuapp.com/";
+    // let url = "https://fiveminutenonsense.herokuapp.com/";
     let messages = []; // Array, dass alle aktuell auf dem Canvas sichtbaren Nachrichten beinhaltet
     // let activeRocket = null; //meine globale Variable, die die RocketInstructions des aktuell geklickten Buttons hält
     
