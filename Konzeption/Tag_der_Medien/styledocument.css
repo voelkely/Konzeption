@@ -1,0 +1,98 @@
+@font-face {
+    font-family:"coluna";
+    src:
+    url("coluna-webfont.woff") format("woff"),
+    url("coluna-webfont.woff2") format("woff2"),
+    }
+
+
+/*Body*/
+
+body {
+    background: linear-gradient(90deg, #FFD1FD, #F1C44E);
+
+}
+.anfang {
+    text-align: center;
+    font-family: "coluna";
+    font-size: 5em;
+    color: white;
+}
+
+.ende {
+    text-align: center;
+    font-family: "coluna";
+    font-size: 5em;
+    color: purple;
+    margin-top: -80px;
+}
+
+.headline {
+
+    text-align: center;
+    margin-top: -50px;
+    font-family: "coluna";
+    font-size: 10pt;
+}
+
+
+.pitch {
+    align-items: right;
+    margin: -90px;    
+
+}
+
+.log {
+
+    transform: skewY(16deg);
+    transform-origin: 10% 20%;
+    margin-left: -300px;
+}
+
+.chat {
+    align-items: center;
+    transform: skewY(-16deg);
+    transform-origin: 60% 40%;
+
+}
+
+.ersteller {
+    text-align: right;
+    font-size: 9pt;
+    color:white;
+    padding: 70px;
+}
+
+
+@media screen and (max-width: 38.75em) {
+
+    .anfang {
+        text-align: center;
+    }
+    
+    .ende {
+        text-align: center;
+        margin-top: -80px;
+    
+    }
+    .pitch {
+        align-items: right;
+        margin: -90px; 
+        margin-bottom: 2em;
+    }
+
+    .log {
+
+        transform: skewY(16deg);
+        transform-origin: 10% 20%;
+        margin-left: -300px;
+    }
+    
+    .chat {
+        align-items: center;
+        transform: skewY(-16deg);
+        transform-origin: 60% 40%;
+    
+    }
+    
+}

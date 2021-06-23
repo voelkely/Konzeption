@@ -1,0 +1,81 @@
+@font-face {
+    font-family:"coluna";
+    src:
+    url("coluna-webfont.woff") format("woff"),
+    url("coluna-webfont.woff2") format("woff2"),
+}
+
+@viewport {
+    zoom:1;
+}
+
+/*Body*/
+
+body {
+        background: linear-gradient(90deg, #FFD1FD, #F1C44E);
+    
+}
+
+/*Head*/
+
+.Logo {
+
+    height: 350px;
+    width: 350px;
+    margin-top: -330px;
+    margin-left: 520px;
+    position: absolute;
+
+}
+
+.head {
+
+    font-family:"coluna";
+    font-size: 50pt;
+    color: white;
+    text-align: center;
+    margin-top: 350px;
+    
+}
+
+button {
+
+    font-family: "coluna";
+    text-align: center;
+    font-size: 23px;
+    border-radius: 50px;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: black;
+}
+
+button:hover {
+    background-color: #4f1964;
+    color: white;
+  }
+
+.login {
+
+    background-color:white; 
+    color: black;
+    padding: 10px;
+    margin: 610px;
+    margin-top: 15px;
+
+}
+
+@media screen and (max-width:38.75em) {
+
+    .Logo {
+        float: none;
+    }
+
+    .head {
+        text-align: center;
+    }
+
+    .login {
+        position: none;
+    }
+
+}
