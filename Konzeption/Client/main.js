@@ -15,7 +15,7 @@ let url = "http://localhost:5001/";
 //let url: string = "https://fiveminutenonsense.herokuapp.com";
 function handleLoad(_event) {
     
-    setInterval(countdown, 1000);   // Interval, das jede Sekunde den Timer aktualisiert (countdown funktion steht im Dokument ganz unten)
+    setInterval(countdown, 100);   // Interval, das jede Sekunde den Timer aktualisiert (countdown funktion steht im Dokument ganz unten)
     
     console.log("start the chat");
     chatField = document.querySelector(".chatfield");
