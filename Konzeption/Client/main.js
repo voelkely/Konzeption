@@ -56,7 +56,7 @@ async function sendText(_event) {
     console.log("dein Text wurde gesendet");
     if (_event.key === "Enter") {
         let message = messageField.value;
-        chatField.innerHTML += "<b>You: </b>" + messageField.value + "<br>";
+        chatField.innerHTML += "<p>" + "<b>You: </b>" + messageField.value + "</p>"+ "<br>";
         messageField.value = "";
         console.log("du hast enter gedrückt");
         sendMessageToServer(message);
