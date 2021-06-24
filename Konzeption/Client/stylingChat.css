@@ -88,7 +88,7 @@ button {
     border-style: none;
     cursor: pointer;
     box-shadow: black;
-    padding: 0.5rem;
+    padding: 0.75rem;
 }
 
 button:hover {
@@ -157,14 +157,16 @@ button:hover {
 }
 .countdown{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     text-align: center;
+    
 }
 
 .countdown p {
     font-size: x-large;
     text-align: center;
     margin-top: -1rem;
+  
 
 }
 /*  styling für den timer zu ende*/
