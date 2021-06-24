@@ -10,6 +10,8 @@
 body {
     background: linear-gradient(90deg, #FFD1FD, #F1C44E);
     margin: 3rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
     font-family: Montserrat;
 
 }
@@ -103,11 +105,10 @@ button:hover {
     height: 510px;
     border-radius: 20px;
     box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2), 0 1px 6px 0 rgba(0,0,0,0.10);
+    padding: 1rem;
 }
 
-#text{
-    padding: 0.5rem;
-}
+
 
 .modal {
     display: none; /* Hidden by default */
@@ -153,6 +154,7 @@ button:hover {
 #timer{
     /* min-height: 100vh ; */
     margin: 2rem;
+    margin-top:-2rem;
     display: flex;
     flex-direction: column;
     align-items:flex-end;
