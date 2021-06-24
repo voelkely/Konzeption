@@ -30,7 +30,7 @@ body {
 
 .head {
 
-    font-family:"coluna";
+    font-family:"Montserrat";
     font-size: 50pt;
     color: white;
     text-align: center;
@@ -84,6 +84,7 @@ button:hover {
 
 #timer{
     /* min-height: 100vh ; */
+    font-family: Montserrat;
     margin: 2rem;
     display: flex;
     flex-direction: column;
