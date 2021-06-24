@@ -107,7 +107,9 @@ button:hover {
     box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2), 0 1px 6px 0 rgba(0,0,0,0.10);
 }
 
-
+.chatfield b,p {
+padding: 0.2rem;
+}
 
 .modal {
     display: none; /* Hidden by default */
