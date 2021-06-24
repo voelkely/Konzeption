@@ -2,10 +2,10 @@
 var Konzeption;
 (function (Konzeption) {
     window.addEventListener("load", handleLoad);
-})(Konzeption || (Konzeption = {}));
+
 //window.setTimeout(deleteChat, 300000); //Unser 5 minuten Timer --> wird glaub nicht mehr gebraucht
 const countDate = new Date ("June23, 2030, 00:00:00");  //globale Variable die das Datum hält, von dem aus der Timer rechnet
-let questions = []; //Hier stehen unsere Fragen drinnen --> Datenbank? 
+var questions = ["What if animals could talk, wich would be the rudest?","What if gravity was slowly disappearing?"];
 let chatField;
 let messageField;
 let modal;
@@ -16,6 +16,7 @@ let url = "http://localhost:5001/";
 function handleLoad(_event) {
     
     setInterval(countdown, 100);   // Interval, das jede Sekunde den Timer aktualisiert (countdown funktion steht im Dokument ganz unten)
+    getQuestion();  // getQuestion Funktion soll aufgerufen werden um Frage zu generieren
     
     console.log("start the chat");
     chatField = document.querySelector(".chatfield");
@@ -38,6 +39,13 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 };
+
+function getQuestion() {
+    console.log("get Question"); 
+	question = questions[Math.floor(Math.random() * questions.length)];
+    document.querySelector(".question").innerText = question;
+    
+}
 function deleteChat() {
     console.log("animation"); //Nachdem Timer abgeaufen ist soll der Chat sich löschen /in console kommt nach 5 min "animation". Timer nicht sichtbar...
     chatField.innerHTML = "";
@@ -114,3 +122,5 @@ async function sendMessageToServer(text) {
 //function allText();
 //function likeIt();
 //# sourceMappingURL=main.js.map
+    
+    })(Konzeption || (Konzeption = {}));
