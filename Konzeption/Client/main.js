@@ -40,10 +40,6 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 };
-	
-function myFunction() {
-    window.open("https://www.w3schools.com");
-}
 
 function getQuestion() {
     console.log("get Question"); 
