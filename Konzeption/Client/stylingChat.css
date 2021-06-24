@@ -71,7 +71,7 @@ header{
     margin: 2rem;
     display: flex;
     align-items:center;
-    justify-content: space-around;
+    justify-content: flex-end;
 
 }
 .buttons{
@@ -89,7 +89,7 @@ button {
     cursor: pointer;
     box-shadow: black;
     padding: 0.5rem;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 button:hover {
