@@ -50,6 +50,7 @@ function getQuestion() {
 function deleteChat() {
     console.log("animation"); //Nachdem Timer abgeaufen ist soll der Chat sich löschen /in console kommt nach 5 min "animation". Timer nicht sichtbar...
     chatField.innerHTML = "";
+	getQuestion();
 }
 async function sendText(_event) {
     console.log("dein Text wurde gesendet");
@@ -111,7 +112,7 @@ async function sendMessageToServer(text) {
     // Wenn 5 Minuten abgelaufen sind und der Chat sich löschen soll:
         
         if (textMinute == 0 && textSecond == 0) {
-        deleteChat;    
+        deleteChat();    
         console.log("delete Chat");
         };
         
