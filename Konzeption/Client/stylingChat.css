@@ -105,10 +105,14 @@ button:hover {
     height: 510px;
     border-radius: 20px;
     box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2), 0 1px 6px 0 rgba(0,0,0,0.10);
+    padding-top: 1rem;
 }
 
-.chatfield b,p {
-padding: 0.2rem;
+.chatfield p {
+padding-left: 0.5rem;
+    padding-right:0.5rem;
+    padding-top:0.1rem;
+    padding-bottom: 0.1rem;
 }
 
 .modal {
