@@ -59,12 +59,12 @@ button {
 
     font-family: "Montserrat";
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 50px;
     border-style: none;
     cursor: pointer;
     box-shadow: black;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 button:hover {
