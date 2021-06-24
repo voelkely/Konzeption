@@ -9,6 +9,7 @@
 
 body {
     background: linear-gradient(90deg, #FFD1FD, #F1C44E);
+    margin: 3rem;
 
 }
 .ChatContainer {
