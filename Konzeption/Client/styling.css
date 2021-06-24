@@ -50,15 +50,15 @@ button:hover {
     color: white;
   }
 
-/*.login {
+.login {
 
     background-color:white; 
     color: black;
     padding: 10px;
-    margin: 610px;
+    margin: 690px;
     margin-top: 15px;
 
-}*/
+}
 
 @media screen and (max-width:38.75em) {
 
