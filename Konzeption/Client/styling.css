@@ -79,3 +79,28 @@ button:hover {
     }
 
 }
+
+/*  styling für den timer */
+
+#timer{
+    /* min-height: 100vh ; */
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+
+
+}
+.countdown{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.countdown p {
+    font-size: x-large;
+    text-align: center;
+    margin-top: -1rem;
+
+}
+/*  styling für den timer zu ende*/
