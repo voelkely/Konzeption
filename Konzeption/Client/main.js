@@ -64,6 +64,7 @@ async function sendMessageToServer(text) {
         let responseJSON = await response.json();
         console.log(await responseJSON);
     }
+    }
     
  //Timer / Countdown:
     
@@ -101,7 +102,7 @@ async function sendMessageToServer(text) {
     
 //Timer / countdown zu Ende
     
-}
+
 //function allText();
 //function likeIt();
 //# sourceMappingURL=main.js.map
