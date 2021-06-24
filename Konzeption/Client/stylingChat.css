@@ -153,7 +153,7 @@ button:hover {
 #timer{
     /* min-height: 100vh ; */
     margin: 2rem;
-    margin-top:-2rem;
+    margin-top:-4rem;
     display: flex;
     flex-direction: column;
     align-items:flex-end;
