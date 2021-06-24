@@ -3,8 +3,9 @@ var Konzeption;
 (function (Konzeption) {
     window.addEventListener("load", handleLoad);
 })(Konzeption || (Konzeption = {}));
-window.setTimeout(deleteChat, 300000); //Unser 5 minuten Timer 
-let questions = []; //Hier stehen unsere Fragen drinnen --> Datenbank?
+//window.setTimeout(deleteChat, 300000); //Unser 5 minuten Timer --> wird glaub nicht mehr gebraucht
+const countDate = new Date ("June23, 2030, 00:00:00");  //globale Variable die das Datum hält, von dem aus der Timer rechnet
+let questions = []; //Hier stehen unsere Fragen drinnen --> Datenbank? 
 let chatField;
 let messageField;
 let modal;
@@ -13,6 +14,9 @@ let span;
 let url = "http://localhost:5001/";
 //let url: string = "https://fiveminutenonsense.herokuapp.com";
 function handleLoad(_event) {
+    
+    setInterval(countdown, 1000);   // Interval, das jede Sekunde den Timer aktualisiert (countdown funktion steht im Dokument ganz unten)
+    
     console.log("start the chat");
     chatField = document.querySelector(".chatfield");
     //hier sollte text im div angezeigt werden //lila
@@ -60,6 +64,43 @@ async function sendMessageToServer(text) {
         let responseJSON = await response.json();
         console.log(await responseJSON);
     }
+    
+ //Timer / Countdown:
+    
+    const countdown = () => {
+        const now = new Date().getTime();
+        const gap = countDate - now;
+        
+    // defining time
+        const second = 1000;
+        const minute = second*60;
+        const hour = minute*60;
+        const day = hour *24;
+
+    //calculation
+        const textDay = Math.floor(gap/day);
+        const textHour = Math.floor((gap%day) / hour);
+        const textMinute = Math.floor((gap%hour) / minute);
+        const textSecond = Math.floor((gap%minute) / second);
+        // console.log("textMinute" + textMinute);
+
+    //5 Minuten check
+        if (textMinute > 4 ) {
+        // console.log(countDate + " davor");
+        countDate.setMinutes(countDate.getMinutes() - 5);
+        // console.log(countDate + " neu");          
+    };
+
+    //Ausgabe des Timers ins html dokument
+    
+        // document.querySelector(".day").innerText = textDay;
+        // document.querySelector(".hour").innerText = textHour;
+        document.querySelector(".minute").innerText = textMinute;
+        document.querySelector(".second").innerText = textSecond;
+    };
+    
+//Timer / countdown zu Ende
+    
 }
 //function allText();
 //function likeIt();
