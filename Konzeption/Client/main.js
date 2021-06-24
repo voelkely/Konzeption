@@ -5,7 +5,7 @@ var Konzeption;
 
 //window.setTimeout(deleteChat, 300000); //Unser 5 minuten Timer --> wird glaub nicht mehr gebraucht
 const countDate = new Date ("June23, 2030, 00:00:00");  //globale Variable die das Datum hält, von dem aus der Timer rechnet
-var questions = ["What if animals could talk, which would be the rudest?","What if gravity was slowly disappearing?"];
+var questions = ["What if animals could talk, which would be the rudest?","What if gravity was slowly disappearing?","What if you could design a planet. What would your perfect planet look like?"];
 var question;
 let chatField;
 let messageField;
