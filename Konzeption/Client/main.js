@@ -102,7 +102,8 @@ async function sendMessageToServer(text) {
     // Wenn 5 Minuten abgelaufen sind und der Chat sich löschen soll:
         
         if (textMinute == 0 && textSecond == 0) {
-        deleteChat;        
+        deleteChat;    
+        console.log("delete Chat");
         };
         
     };
