@@ -71,7 +71,7 @@ header{
     margin: 2rem;
     display: flex;
     align-items:center;
-/*    justify-content: space-around;*/
+    justify-content: space-around;
 
 }
 .buttons{
@@ -88,7 +88,7 @@ button {
     border-style: none;
     cursor: pointer;
     box-shadow: black;
-    padding: 0.75rem;
+    padding: 0.5rem;
     margin: 1rem;
 }
 
