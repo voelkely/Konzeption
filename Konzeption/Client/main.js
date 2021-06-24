@@ -90,7 +90,7 @@ async function sendMessageToServer(text) {
         // console.log(countDate + " davor");
         countDate.setMinutes(countDate.getMinutes() - 5);
         // console.log(countDate + " neu");          
-    };
+        };
 
     //Ausgabe des Timers ins html dokument
     
@@ -98,6 +98,13 @@ async function sendMessageToServer(text) {
         // document.querySelector(".hour").innerText = textHour;
         document.querySelector(".minute").innerText = textMinute;
         document.querySelector(".second").innerText = textSecond;
+        
+    // Wenn 5 Minuten abgelaufen sind und der Chat sich löschen soll:
+        
+        if (textMinute == 0 && textSecond == 0) {
+        deleteChat;        
+        };
+        
     };
     
 //Timer / countdown zu Ende
