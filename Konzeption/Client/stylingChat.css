@@ -10,6 +10,7 @@
 body {
     background: linear-gradient(90deg, #FFD1FD, #F1C44E);
     margin: 3rem;
+    font-family: Montserrat;
 
 }
 .ChatContainer {
@@ -64,9 +65,17 @@ input[type="text"]::placeholder {
     font-family: "Montserrat";
  
 }
+
+header{
+ /* min-height: 100vh ; */
+    margin: 2rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
 .buttons{
     display: flex;
-    flex-direction: column;
     align-items:flex-start;
 
 }
@@ -139,7 +148,6 @@ button:hover {
 
 #timer{
     /* min-height: 100vh ; */
-    font-family: Montserrat;
     margin: 2rem;
     display: flex;
     flex-direction: column;
