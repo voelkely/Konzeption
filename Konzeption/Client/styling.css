@@ -1,9 +1,3 @@
-@font-face {
-    font-family:"coluna";
-    src:
-    url("coluna-webfont.woff") format("woff"),
-    url("coluna-webfont.woff2") format("woff2"),
-}
 
 @viewport {
     zoom:1;
@@ -56,7 +50,7 @@ button:hover {
     color: white;
   }
 
-.login {
+/*.login {
 
     background-color:white; 
     color: black;
@@ -64,7 +58,7 @@ button:hover {
     margin: 610px;
     margin-top: 15px;
 
-}
+}*/
 
 @media screen and (max-width:38.75em) {
 
