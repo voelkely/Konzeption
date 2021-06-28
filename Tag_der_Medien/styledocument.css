@@ -70,3 +70,21 @@ body {
     color:white;
     padding: 70px;
 }
+
+button {
+
+    font-family: "Montserrat;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 0.5rem;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: black;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+button:hover {
+    background-color: #4f1964;
+    color: white;
+  }
