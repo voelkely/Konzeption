@@ -38,7 +38,9 @@ body {
     background-color: "white";
     border-radius: 15px;  
     margin: 3rem;
-    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 
 
     font-family: Montserrat;
@@ -52,19 +54,19 @@ body {
 h1 {
     text-align: center;
     font-style: bold;
-    padding: 3rem;
-    margin: 3rem;
+    padding: 1rem;
+
 }
 
 
 input[type="text"] {
     width: 99%;
-    padding: 2.5em;   /* 5 px*/
-    margin-top: 5em; /* 10 px*/  
-    margin-bottom: 2em;
+    padding: 1rem;   /* 5 px*/
+    margin-top: 2rem; /* 10 px*/  
+    margin-bottom: 2rem;
     border-style: solid;
     border-color: #EFEDE9;
-    border-width: 0.5rem;  /* 1 px*/
+    border-width: 0.25rem;  /* 1 px*/
     box-shadow: none;
     outline: none;
     font-size: 1em;
@@ -96,11 +98,11 @@ button {
 
     font-family: "Montserrat";
     text-align: center;
-    font-size: 5rem;    /*14px*/
+    font-size: 0.75rem;    /*14px*/
     border-radius: 0.5rem;
     border-style: none;
     cursor: pointer;
-    box-shadow: "black";
+    box-shadow: black;
     padding: 0.5rem;
     margin: 0.5rem;
     margin-bottom: 0;
@@ -109,7 +111,7 @@ button {
 
 button:hover {
     background-color: #4f1964;
-    color: "white";
+    color: white;
 }
 
 
@@ -117,12 +119,11 @@ div.chatfield {
     background-color:#EFEDE9;
   /*  width: 1000px;
     height: 510px;*/
-    min-height: 300%;
+    min-height: 5rem;
     border-radius: 15px;
-    box-shadow: 0 0px 8px 0 "rgba"(0,0,0,0.2), 0 1px 6px 0 "rgba"(0,0,0,0.10);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin: 5rem;
+    box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2), 0 1px 6px 0 rgba(0,0,0,0.10);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     overflow: scroll;
 }
 
@@ -179,7 +180,7 @@ padding-left: 1rem;
 #timer{
     /* min-height: 100vh ; */
     margin: 2rem;
-    margin-top:-2rem;
+    margin-top:-4rem;
     display: flex;
     flex-direction: column;
     align-items:flex-end;
