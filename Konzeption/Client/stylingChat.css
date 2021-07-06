@@ -9,15 +9,15 @@
 
 body {
     background: linear-gradient(90deg, #FFD1FD, #F1C44E);
-    margin: 7rem;
-    margin-top: 10rem;
+    margin: 7 rem;
+    margin-top: 10 rem;
     font-family: Montserrat;
 
 }
 .ChatContainer {
      /* min-height: 100vh ; */
     font-family: Montserrat;
-    margin: 2rem;
+    margin: 2 rem;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -35,10 +35,10 @@ body {
     min-width: 70%;
     max height: 80%;
     min-heigt: 50%;
-    background-color: "white";
+    background-color: white;
     border-radius: 15px;  
-    margin: 3rem;
-
+    margin: 3 rem;
+    padding: 3 rem;
 
 
     font-family: Montserrat;
@@ -52,29 +52,29 @@ body {
 h1 {
     text-align: center;
     font-style: bold;
-    padding: 1rem;
-
+    padding: 3 rem;
+    margin: 3 rem;
 }
 
 
 input[type="text"] {
     width: 99%;
-    padding: 1rem;   /* 5 px*/
-    margin-top: 2rem; /* 10 px*/  
-    margin-bottom: 2rem;
+    padding: 2.5 em;   /* 5 px*/
+    margin-top: 5 em; /* 10 px*/  
+    margin-bottom: 2 em;
     border-style: solid;
     border-color: #EFEDE9;
-    border-width: 0.25rem;  /* 1 px*/
+    border-width: 0.5 rem;  /* 1 px*/
     box-shadow: none;
     outline: none;
     font-size: 1em;
-    border-radius: 10px;    /* 10 px*/
+    border-radius: 10 px;    /* 10 px*/
     align-items: center;
 }
   
 input[type="text"]::placeholder {
     color: #ccc;
-    padding: 2rem;  /* 10 px*/
+    padding: 2 rem;  /* 10 px*/
     font-family: "Montserrat";
  
 }
@@ -96,7 +96,7 @@ button {
 
     font-family: "Montserrat";
     text-align: center;
-    font-size: 0.75rem;    /*14px*/
+    font-size: 5 rem;    /*14px*/
     border-radius: 0.5rem;
     border-style: none;
     cursor: pointer;
@@ -104,7 +104,7 @@ button {
     padding: 0.5rem;
     margin: 0.5rem;
     margin-bottom: 0;
-    margin-top: 2rem;
+    margin-top: 2 rem;
 }
 
 button:hover {
@@ -117,11 +117,12 @@ div.chatfield {
     background-color:#EFEDE9;
   /*  width: 1000px;
     height: 510px;*/
-    min-height: 5rem;
+    min-height: 300%;
     border-radius: 15px;
     box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2), 0 1px 6px 0 rgba(0,0,0,0.10);
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1 rem;
+    margin: 5 rem;
     overflow: scroll;
 }
 
@@ -129,9 +130,9 @@ div.chatfield {
 .chatfield p {
 padding-left: 1rem;
     padding-right:0.5rem;
-    padding-top:0.4rem;
+    padding-top:0.4 rem;
     padding-bottom: 0.1rem;
-    margin: 0.5rem;
+    margin: 0.5 rem;
 }
 
 .modal {
@@ -178,7 +179,7 @@ padding-left: 1rem;
 #timer{
     /* min-height: 100vh ; */
     margin: 2rem;
-    margin-top:-4rem;
+    margin-top:-2rem;
     display: flex;
     flex-direction: column;
     align-items:flex-end;
