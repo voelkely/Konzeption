@@ -117,6 +117,7 @@ div.chatfield {
     padding-top: 1rem;
     padding-bottom: 1 rem;
     margin: 5 rem;
+    overflow: scroll;
 }
 
 .chatfield p {
