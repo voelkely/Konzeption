@@ -9,7 +9,7 @@
 
 body {
     background: linear-gradient(90deg, #FFD1FD, #F1C44E);
-    margin: 3 rem;
+    margin: 5 rem;
 
     font-family: Montserrat;
 
@@ -58,9 +58,9 @@ h1 {
 
 
 input[type="text"] {
-    width: 95%;
-    padding: 2.5 rem;   /* 5 px*/
-    margin-top: 5 rem; /* 10 px*/  
+    width: 100%;
+    padding: 2.5 em;   /* 5 px*/
+    margin-top: 5 em; /* 10 px*/  
     border-style: solid;
     border-color: #EFEDE9;
     border-width: 0.5 rem;  /* 1 px*/
