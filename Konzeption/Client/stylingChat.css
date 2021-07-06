@@ -89,7 +89,7 @@ input[type="text"]::placeholder {
 .buttons{
     display: flex;
     align-items:flex-start;
-    margin-top: 2 rem;
+
 
 }
 button {
@@ -104,6 +104,7 @@ button {
     padding: 0.5rem;
     margin: 0.5rem;
     margin-bottom: 0;
+    margin-top: 2 rem;
 }
 
 button:hover {
