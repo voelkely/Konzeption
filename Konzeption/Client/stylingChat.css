@@ -58,9 +58,10 @@ h1 {
 
 
 input[type="text"] {
-    width: 100%;
+    width: 98%;
     padding: 2.5 em;   /* 5 px*/
     margin-top: 5 em; /* 10 px*/  
+    margin-bottom: 2 em;
     border-style: solid;
     border-color: #EFEDE9;
     border-width: 0.5 rem;  /* 1 px*/
