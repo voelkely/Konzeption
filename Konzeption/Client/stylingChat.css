@@ -52,21 +52,21 @@ h1 {
 
 input[type="text"] {
     width: 99%;
-    padding: 5px;
-    margin-top: 10px;
+    padding: 1 rem;   /* 5 px*/
+    margin-top: 2 rem; /* 10 px*/  
     border-style: solid;
     border-color: #EFEDE9;
-    border-width: 1px;
+    border-width: 0.25 rem;  /* 1 px*/
     box-shadow: none;
     outline: none;
     font-size: 1em;
-    border-radius: 10px;
+    border-radius: 4 rem;    /* 10 px*/
     align-items: center;
 }
   
 input[type="text"]::placeholder {
     color: #ccc;
-    padding: 10px;
+    padding: 2 rem;  /* 10 px*/
     font-family: "Montserrat";
  
 }
@@ -87,7 +87,7 @@ button {
 
     font-family: "Montserrat";
     text-align: center;
-    font-size: 14px;
+    font-size: 5 rem;    /*14px*/
     border-radius: 0.5rem;
     border-style: none;
     cursor: pointer;
@@ -105,12 +105,12 @@ button:hover {
 
 .chatfield {
     background-color:#EFEDE9;
-    width: 1000px;
-    height: 510px;
+  /*  width: 1000px;
+    height: 510px;*/
     border-radius: 20px;
     box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2), 0 1px 6px 0 rgba(0,0,0,0.10);
     padding-top: 1rem;
-    margin-bottom: 1 rem;
+    margin: 5 rem;
 }
 
 .chatfield p {
