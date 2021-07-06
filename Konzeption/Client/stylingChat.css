@@ -108,7 +108,7 @@ button:hover {
 }
 
 
-.chatfield {
+div .chatfield {
     background-color:#EFEDE9;
   /*  width: 1000px;
     height: 510px;*/
@@ -122,7 +122,7 @@ button:hover {
 .chatfield p {
 padding-left: 1rem;
     padding-right:0.5rem;
-    padding-top:0rem;
+    padding-top:0.4 rem;
     padding-bottom: 0.1rem;
 }
 
