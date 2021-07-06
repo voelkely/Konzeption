@@ -93,15 +93,13 @@ button {
 
     font-family: "Montserrat";
     text-align: center;
-    font-size: 5 rem;    /*14px*/
-    border-radius: 0.5rem;
+    border-radius: 0.4rem;
     border-style: none;
     cursor: pointer;
     box-shadow: black;
     padding: 0.5rem;
-    margin: 0.5rem;
+    margin: 0.4rem;
     margin-bottom: 0;
-    margin-top: 2 rem;
 }
 
 button:hover {
@@ -114,12 +112,12 @@ div.chatfield {
     background-color:#EFEDE9;
   /*  width: 1000px;
     height: 510px;*/
-    min-height: 300%;
-    border-radius: 15px;
+    min-height: 20rem;
+    max-height: 50rem;
+    border-radius: 1rem;
     box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2), 0 1px 6px 0 rgba(0,0,0,0.10);
-    padding-top: 1rem;
-    padding-bottom: 1 rem;
-    margin: 5 rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
     overflow: scroll;
 }
 
