@@ -50,8 +50,7 @@ h1 {
     text-align: center;
     font-style: bold;
     padding: 3 rem;
-    margin-left: 5 rem;
-    margin-right: 5 rem;
+    margin: 3 rem;
 }
 
 
@@ -108,14 +107,15 @@ button:hover {
 }
 
 
-div .chatfield {
+div.chatfield {
     background-color:#EFEDE9;
   /*  width: 1000px;
     height: 510px;*/
     min-height: 20 rem;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2), 0 1px 6px 0 rgba(0,0,0,0.10);
     padding-top: 1rem;
+    padding-bottom: 1 rem;
     margin: 5 rem;
 }
 
@@ -124,6 +124,7 @@ padding-left: 1rem;
     padding-right:0.5rem;
     padding-top:0.4 rem;
     padding-bottom: 0.1rem;
+    margin: 0.5 rem;
 }
 
 .modal {
