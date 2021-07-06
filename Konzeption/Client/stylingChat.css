@@ -37,8 +37,8 @@ body {
     min-heigt: 50%;
     background-color: white;
     border-radius: 15px;  
-    margin: 3 rem;
-    padding: 3 rem;
+    margin: 3rem;
+    padding: 3rem;
 
 
     font-family: Montserrat;
@@ -52,29 +52,29 @@ body {
 h1 {
     text-align: center;
     font-style: bold;
-    padding: 3 rem;
-    margin: 3 rem;
+    padding: 3rem;
+    margin: 3rem;
 }
 
 
 input[type="text"] {
     width: 99%;
-    padding: 2.5 em;   /* 5 px*/
-    margin-top: 5 em; /* 10 px*/  
-    margin-bottom: 2 em;
+    padding: 2.5em;   /* 5 px*/
+    margin-top: 5em; /* 10 px*/  
+    margin-bottom: 2em;
     border-style: solid;
     border-color: #EFEDE9;
-    border-width: 0.5 rem;  /* 1 px*/
+    border-width: 0.5rem;  /* 1 px*/
     box-shadow: none;
     outline: none;
     font-size: 1em;
-    border-radius: 10 px;    /* 10 px*/
+    border-radius: 10px;    /* 10 px*/
     align-items: center;
 }
   
 input[type="text"]::placeholder {
     color: #ccc;
-    padding: 2 rem;  /* 10 px*/
+    padding: 2rem;  /* 10 px*/
     font-family: "Montserrat";
  
 }
@@ -96,20 +96,20 @@ button {
 
     font-family: "Montserrat";
     text-align: center;
-    font-size: 5 rem;    /*14px*/
+    font-size: 5rem;    /*14px*/
     border-radius: 0.5rem;
     border-style: none;
     cursor: pointer;
-    box-shadow: black;
+    box-shadow: "black";
     padding: 0.5rem;
     margin: 0.5rem;
     margin-bottom: 0;
-    margin-top: 2 rem;
+    margin-top: 2rem;
 }
 
 button:hover {
     background-color: #4f1964;
-    color: white;
+    color: "white";
 }
 
 
@@ -119,10 +119,10 @@ div.chatfield {
     height: 510px;*/
     min-height: 300%;
     border-radius: 15px;
-    box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2), 0 1px 6px 0 rgba(0,0,0,0.10);
+    box-shadow: 0 0px 8px 0 "rgba"(0,0,0,0.2), 0 1px 6px 0 "rgba"(0,0,0,0.10);
     padding-top: 1rem;
-    padding-bottom: 1 rem;
-    margin: 5 rem;
+    padding-bottom: 1rem;
+    margin: 5rem;
     overflow: scroll;
 }
 
@@ -130,9 +130,9 @@ div.chatfield {
 .chatfield p {
 padding-left: 1rem;
     padding-right:0.5rem;
-    padding-top:0.4 rem;
+    padding-top:0.4rem;
     padding-bottom: 0.1rem;
-    margin: 0.5 rem;
+    margin: 0.5rem;
 }
 
 .modal {
