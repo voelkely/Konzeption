@@ -34,10 +34,13 @@ body {
     /*width: 1000px;
     height: 600px;*/
     min-width: 70%;
+    max height: 80%;
+    min-heigt: 50%;
     background-color: white;
     border-radius: 15px;  
     margin: 5 rem;
     padding: 5 rem;
+    overflow: scroll;
 
     font-family: Montserrat;
     /*      min-height: 100vh ;
