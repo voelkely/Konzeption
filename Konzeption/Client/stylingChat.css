@@ -18,7 +18,7 @@ body {
 .ChatContainer {
      /* min-height: 100vh ; */
     font-family: Montserrat;
-    margin: 1 rem;
+    margin: 2.5 rem;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -91,7 +91,7 @@ button {
     box-shadow: black;
     padding: 0.5rem;
     margin: 0.5rem;
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 button:hover {
