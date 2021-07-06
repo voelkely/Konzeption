@@ -123,11 +123,10 @@ div.chatfield {
 
 
 .chatfield p {
-padding-left: 1rem;
+    padding: 0.1rem;
+    padding-left: 1rem;
     padding-right:0.5rem;
-    padding-top:0.4 rem;
-    padding-bottom: 0.1rem;
-    margin: 0.5 rem;
+
 }
 
 .modal {
@@ -174,7 +173,7 @@ padding-left: 1rem;
 #timer{
     /* min-height: 100vh ; */
     margin: 2rem;
-    margin-top:-2rem;
+    margin-top:-4rem;
     display: flex;
     flex-direction: column;
     align-items:flex-end;
