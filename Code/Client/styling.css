@@ -1,0 +1,209 @@
+@font-face {
+    font-family:"coluna";
+    src:
+    url("coluna-webfont.woff") format("woff"),
+    url("coluna-webfont.woff2") format("woff2"),
+}
+
+/*Body*/
+
+body {
+    background: linear-gradient(90deg, #FFD1FD, #F1C44E);
+    margin: 2rem;
+    font-family: Montserrat;
+
+}
+.ChatContainer {
+     /* min-height: 100vh ; */
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+
+    
+}
+
+.Window {
+
+    /*width: 1000px;
+    height: 600px;*/
+    min-width: 70%;
+    background-color: white;
+    border-radius: 1rem;  
+    margin: 0.5rem;
+
+
+
+    font-family: Montserrat;
+    /*      min-height: 100vh ;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;*/
+}
+
+h1 {
+    text-align: center;
+    font-style: bold;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+input {
+    width: 100%;
+    box-sizing:border-box;
+
+    padding: 0.5em;   /* 5 px*/ 
+    margin-bottom: 0.1em;
+    border-style: solid;
+    border-color: #EFEDE9;
+    border-width: 0.1rem;  /* 1 px*/
+    box-shadow: none;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 1rem;    /* 10 px*/
+    align-items: center;
+    font-family: "Montserrat";
+}
+  
+input[type="text"]::placeholder {
+    color: #ccc;
+    padding: 0.5rem;  /* 10 px*/
+    font-family: "Montserrat";
+ 
+}
+
+/* header{
+    margin: 2rem;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+} */
+
+.buttons{
+    display: flex;
+    align-items:flex-start;
+
+
+}
+#id{
+    color:#4f1964;
+    font-size: larger;
+    margin-top: 0.45em;
+    margin-left: 0.5em;
+}
+button {
+
+    font-family: "Montserrat";
+    text-align: center;
+    border-radius: 0.4rem;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: black;
+    padding: 0.5rem;
+    margin: 0.4rem;
+    margin-bottom: 0;
+}
+
+button:hover {
+    background-color: #4f1964;
+    color: white;
+}
+
+
+div.chatfield {
+    background-color:#EFEDE9;
+  /*  width: 1000px;
+    height: 510px;*/
+    min-height: 15rem;
+    max-height: 25rem;
+    border-radius: 1rem;
+    box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2), 0 1px 6px 0 rgba(0,0,0,0.10);
+    padding: 0.2em;
+    padding-top: 1.1rem;
+    padding-bottom: 0.4rem;
+    overflow: scroll;
+    scroll-behavior: smooth;
+
+}
+
+
+.chatfield p {
+    margin: 0;
+    padding: 0.4rem;
+    padding-left: 1.3rem;
+    padding-right:0.5rem;
+
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/*  styling für den timer */
+
+#timer{
+    /* min-height: 100vh ; */
+    margin: 2rem;
+    margin-top:-4rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    margin-bottom: 0;
+
+
+}
+.countdown{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.countdown p {
+    font-size: x-large;
+    text-align: center;
+    margin-top: -1rem;
+  
+
+}
+/*  styling für den timer zu ende*/
