@@ -23,7 +23,7 @@ function handleLoad(_event) {
    
     setInterval(updateChat,100); // soll jede sekunde die neuesten chat-nachrichten laden
     setInterval(countdown, 100);   // Interval, das jede Sekunde den Timer aktualisiert (countdown funktion steht im Dokument ganz unten)
-    // getQuestion();  // getQuestion Funktion soll aufgerufen werden um Frage zu generieren
+
     
     console.log("start the chat");
     chatDiv = document.querySelector(".chatfield");
@@ -52,28 +52,12 @@ window.onclick = function (event) {
     }
 };
 
-// async function updateChat(){
-//     // diese funktion wird jede sekunde aufgerufen und soll die neuen nachrichten aus dem server hohlen und anzeigen
-
-//         // chatField.innerHTML += "<p>" + "You: " + messageField.value + "</p>";
-//         // messageField.value = "";
-    
-// }
-
-// async function getQuestion() {
-//     console.log("get Question"); 
-//     let response = await fetch(url + "?" + "command=retrieveQ");
-//     let responseText = await response.text();
-//     console.log(responseText);
-// 	// question = questions[Math.floor(Math.random() * questions.length)];
-//     document.querySelector(".question").innerText = responseText; 
-// }
 
 function deleteChat() {
-    console.log("deleteChat"); //Nachdem Timer abgeaufen ist soll der Chat sich löschen /in console kommt nach 5 min "animation". Timer nicht sichtbar...
+    console.log("deleteChat"); //Nachdem Timer abgeaufen ist soll der Chat sich löschen 
     chatDiv = document.querySelector(".chatfield");
     chatDiv.innerHTML = "";
-	// getQuestion();
+
 }
 
 async function sendText(_event) {
@@ -82,11 +66,8 @@ async function sendText(_event) {
 
     if (_event.key === "Enter") {
         let message = messageField.value;
-        // console.log(messageField);
-        // chatField.innerHTML += "<p>" + "You: " + messageField.value + "</p>";
 
-        // console.log("du hast enter gedrückt");
-            console.log("dein Text wird gesendet ");
+        console.log("dein Text wird gesendet ");
         sendMessageToServer(id + ": " + message);
     }
 }
@@ -95,17 +76,12 @@ async function sendMessageToServer(_message) {
     
         let query = new URLSearchParams(_message);
         let response = await fetch(url + "?" + query.toString());
-        let responseText = await response.text();       // hier stand JSON und json statt text
+        let responseText = await response.text();       
         console.log(responseText + " kam vom server i guess");
-        // chatField.innerHTML += "<p>" + "You: " + messageField.value + "</p>";
         messageField.value = "";
-        // displayChat(responseText);
+
     }
 
-// function displayChat (_messageFromServer){
-//     chatDiv = document.querySelector(".chatfield");
-//     chatDiv.innerHTML += "<p>" + "You: " + _messageFromServer + "</p>";
-// }
 
 async function updateChat(){
         let response = await fetch(url + "?" + "command=retrieve");
@@ -126,30 +102,12 @@ async function updateChat(){
             currentMessageClocked = currentMessageClocked.slice(2);
             currentMessageClocked = currentMessageClocked.slice(0, currentMessageClocked.length - 5);
 
-            // currentMessageClocked -= currentMessageUno;
 
             currentMessageP.innerText =  currentMessageClocked;
 
  
             // var scroll= chatDiv;
             // scroll.scrollTop = scroll.scrollHeight;
-
-
-        // chatDiv.innerHTML += "<p>" + "You: " + responseText + "</p>";
-
-
-        // let rockets = _allSavedRockets;
-        // rockets = JSON.parse(rockets);
-        // // console.log(rockets);
-        // let rocketButtonDiv = document.querySelector("div#RocketButtons");
-        // for (let i = 0; i < rockets.length; i++) { // die einzelnen RocketInstructions aus der Serverantwort werden durchgegangen
-        //     let currentRocket = rockets[i]; // die aktuelle Rocketinstruction wird ins Format des Interfaces "Rocketinstruction" gebracht und unter der variable currentRocket gespeichert
-        //     let currentRocketButton = document.createElement("button");
-        //     rocketButtonDiv.appendChild(currentRocketButton);
-        //     currentRocketButton.innerText = currentRocket.name;
-        //     // currentRocketButton.addEventListener("click", clickedRocketButton)
-        //     currentRocketButton.addEventListener("click", () => {
-        //         activeRocket = currentRocket;
 
         }
     }
@@ -236,12 +194,6 @@ async function getId (){
 
     let response = await fetch(url + "?" + "command=getid");
     let responseText = await response.text();
-    // console.log(responseText + "  ID");
-    // let currentQuestion = JSON.stringify(responseText);
-
-    // console.log("die aktuelle frage sollte geladen sein")
-    // responseText = responseText.slice(2);
-    // responseText = responseText.slice(0, responseText.length - 2);
 
     id = responseText;
     idDiv = document.getElementById("id");
