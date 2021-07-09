@@ -46,11 +46,12 @@ async function handleRequest(_request, _response) {
             chatMessages.length = 0; 
 
             getQuestion();
+            
 
-            setTimeout(function() {
+            // setTimeout(function() {
                 let QuestionString = JSON.stringify(currentQuestion);
                 _response.write(QuestionString);
-            }[500]);
+            // }[500]);
 
 
         break;
