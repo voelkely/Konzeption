@@ -34,7 +34,7 @@ padding-left: 1em;
 .head {
 
     font-family:"Montserrat";
-    font-size: 2em;
+    font-size: 2.5em;
     color: white;
     text-align: center;
     margin: 0.7em;
@@ -51,7 +51,7 @@ button {
 
     font-family: "Montserrat";
     text-align: center;
-    font-size: 0.7em;
+    font-size: 0.9em;
     border-radius: 0.4rem;
     border-style: none;
     cursor: pointer;
