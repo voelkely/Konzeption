@@ -8,6 +8,7 @@
 body {
         background: linear-gradient(90deg, #FFD1FD, #F1C44E);
         margin: 2rem;
+        margin-top: -0.5em;
         font-family: Montserrat;
         display: flex;
         flex-direction: column;
@@ -19,9 +20,12 @@ body {
 /*Head */
 
 .Logo {
-margin: 1em;
-margin-bottom: -4em;
-padding-left: 1.7em;
+height: 13em;
+width: auto;
+
+margin: 3em;
+margin-bottom: -2em;
+padding-left: 1.6em;
 
 
 }
@@ -30,25 +34,31 @@ padding-left: 1.7em;
 .head {
 
     font-family:"Montserrat";
-    font-size: 5em;
+    font-size: 2.5em;
     color: white;
     text-align: center;
     margin: 0.7em;
+
     
+}
+.head p {
+    color: #4f1964; 
+    margin: -0.2em;
+
 }
 
 button {
 
     font-family: "Montserrat";
     text-align: center;
-    font-size: 1.3em;
-    border-radius: 0.5rem;
+    font-size: 0.9em;
+    border-radius: 0.4rem;
     border-style: none;
     cursor: pointer;
     box-shadow: black;
-    padding: 0.8rem;
-    margin: 0.4rem;
-    margin-top: 1rem;
+    padding: 0.6rem;
+    margin: 1rem;
+    /* margin-top: 1rem; */
     background-color:white; 
     color: black;
 }
